@@ -100,13 +100,6 @@ def winner
   end
 end
 
-
-
-
-end
- 
- 
- 
  
  
  def play
