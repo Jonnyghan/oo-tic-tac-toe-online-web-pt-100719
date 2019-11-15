@@ -69,8 +69,8 @@ class TicTacToe
       return win_combo
     end
       false
+    end
   end
-end
  
  
  
