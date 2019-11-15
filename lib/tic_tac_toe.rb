@@ -109,13 +109,15 @@ end
  
  
  
- 
  def play
   while over? == false
-   turn 
-   end
-   if won?
-     puts "Congratulations #{winner}"
-     #elsif
- end 
+    turn
+  end
+  if won?
+    puts "Congratulations #{winner}!"
+  elsif draw?
+    puts "Womp Womp Womp"
+  end
+end
+
 end
