@@ -112,6 +112,6 @@ end
   elsif draw?
     puts "Womp Womp Womp"
   end
+ end
 end
-
 
