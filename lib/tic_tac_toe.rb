@@ -110,6 +110,7 @@ end
  
  
  def play
+   puts "Please make a move! :)"
   until over?
     turn
   end
