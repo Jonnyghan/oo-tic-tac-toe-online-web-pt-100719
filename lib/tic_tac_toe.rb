@@ -103,7 +103,7 @@ end
  
  
  def play
-   puts "Please make a move! :)"
+  # puts "Please make a move! :)"
   until over?
     turn
   end
