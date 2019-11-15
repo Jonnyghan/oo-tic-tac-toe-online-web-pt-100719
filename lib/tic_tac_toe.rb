@@ -110,7 +110,7 @@ end
  
  
  def play
-  while over? == false
+  until over?
     turn
   end
   if won?
