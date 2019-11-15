@@ -50,7 +50,6 @@ class TicTacToe
   
   def turn
     puts "please enter a value from 1 to 9:"
-
     input = gets 
     index = input_to_index(input)
     #p = current_player
@@ -60,7 +59,14 @@ class TicTacToe
     else
       turn
     end
- end
+   end
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  def play
    while over? == false
