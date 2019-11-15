@@ -110,7 +110,7 @@ end
   if won?
     puts "Congratulations #{winner}!"
   elsif draw?
-    puts "Womp Womp Womp"
+    puts "Cat's Game!"
   end
  end
 end
