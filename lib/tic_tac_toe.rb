@@ -62,7 +62,7 @@ class TicTacToe
     p = current_player
     if valid_move?(index)
       move(index, p)
->>>>>>> 11611c1e61983f1f52840f4f3969d5669f190246
+#>>>>>>> 11611c1e61983f1f52840f4f3969d5669f190246
       display_board
     else
       turn
